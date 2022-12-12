@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48403003294786A20067D361 /* NomadridesTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48403002294786A20067D361 /* NomadridesTaskApp.swift */; };
+		48403005294786A20067D361 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48403004294786A20067D361 /* ContentView.swift */; };
+		48403007294786A40067D361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48403006294786A40067D361 /* Assets.xcassets */; };
+		4840300A294786A40067D361 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48403009294786A40067D361 /* Preview Assets.xcassets */; };
+		48403014294786A40067D361 /* NomadridesTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48403013294786A40067D361 /* NomadridesTaskTests.swift */; };
+		4840301E294786A40067D361 /* NomadridesTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840301D294786A40067D361 /* NomadridesTaskUITests.swift */; };
+		48403020294786A40067D361 /* NomadridesTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840301F294786A40067D361 /* NomadridesTaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48403010294786A40067D361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48402FF7294786A20067D361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48402FFE294786A20067D361;
+			remoteInfo = NomadridesTask;
+		};
+		4840301A294786A40067D361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48402FF7294786A20067D361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48402FFE294786A20067D361;
+			remoteInfo = NomadridesTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48402FFF294786A20067D361 /* NomadridesTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NomadridesTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48403002294786A20067D361 /* NomadridesTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadridesTaskApp.swift; sourceTree = "<group>"; };
+		48403004294786A20067D361 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48403006294786A40067D361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48403009294786A40067D361 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4840300F294786A40067D361 /* NomadridesTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NomadridesTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48403013294786A40067D361 /* NomadridesTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadridesTaskTests.swift; sourceTree = "<group>"; };
+		48403019294786A40067D361 /* NomadridesTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NomadridesTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4840301D294786A40067D361 /* NomadridesTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadridesTaskUITests.swift; sourceTree = "<group>"; };
+		4840301F294786A40067D361 /* NomadridesTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadridesTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48402FFC294786A20067D361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4840300C294786A40067D361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48403016294786A40067D361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48402FF6294786A20067D361 = {
+			isa = PBXGroup;
+			children = (
+				48403001294786A20067D361 /* NomadridesTask */,
+				48403012294786A40067D361 /* NomadridesTaskTests */,
+				4840301C294786A40067D361 /* NomadridesTaskUITests */,
+				48403000294786A20067D361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48403000294786A20067D361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48402FFF294786A20067D361 /* NomadridesTask.app */,
+				4840300F294786A40067D361 /* NomadridesTaskTests.xctest */,
+				48403019294786A40067D361 /* NomadridesTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48403001294786A20067D361 /* NomadridesTask */ = {
+			isa = PBXGroup;
+			children = (
+				48403002294786A20067D361 /* NomadridesTaskApp.swift */,
+				48403004294786A20067D361 /* ContentView.swift */,
+				48403006294786A40067D361 /* Assets.xcassets */,
+				48403008294786A40067D361 /* Preview Content */,
+			);
+			path = NomadridesTask;
+			sourceTree = "<group>";
+		};
+		48403008294786A40067D361 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				48403009294786A40067D361 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48403012294786A40067D361 /* NomadridesTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				48403013294786A40067D361 /* NomadridesTaskTests.swift */,
+			);
+			path = NomadridesTaskTests;
+			sourceTree = "<group>";
+		};
+		4840301C294786A40067D361 /* NomadridesTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4840301D294786A40067D361 /* NomadridesTaskUITests.swift */,
+				4840301F294786A40067D361 /* NomadridesTaskUITestsLaunchTests.swift */,
+			);
+			path = NomadridesTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48402FFE294786A20067D361 /* NomadridesTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48403023294786A40067D361 /* Build configuration list for PBXNativeTarget "NomadridesTask" */;
+			buildPhases = (
+				48402FFB294786A20067D361 /* Sources */,
+				48402FFC294786A20067D361 /* Frameworks */,
+				48402FFD294786A20067D361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NomadridesTask;
+			productName = NomadridesTask;
+			productReference = 48402FFF294786A20067D361 /* NomadridesTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4840300E294786A40067D361 /* NomadridesTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48403026294786A40067D361 /* Build configuration list for PBXNativeTarget "NomadridesTaskTests" */;
+			buildPhases = (
+				4840300B294786A40067D361 /* Sources */,
+				4840300C294786A40067D361 /* Frameworks */,
+				4840300D294786A40067D361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48403011294786A40067D361 /* PBXTargetDependency */,
+			);
+			name = NomadridesTaskTests;
+			productName = NomadridesTaskTests;
+			productReference = 4840300F294786A40067D361 /* NomadridesTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48403018294786A40067D361 /* NomadridesTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48403029294786A40067D361 /* Build configuration list for PBXNativeTarget "NomadridesTaskUITests" */;
+			buildPhases = (
+				48403015294786A40067D361 /* Sources */,
+				48403016294786A40067D361 /* Frameworks */,
+				48403017294786A40067D361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4840301B294786A40067D361 /* PBXTargetDependency */,
+			);
+			name = NomadridesTaskUITests;
+			productName = NomadridesTaskUITests;
+			productReference = 48403019294786A40067D361 /* NomadridesTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48402FF7294786A20067D361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					48402FFE294786A20067D361 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					4840300E294786A40067D361 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 48402FFE294786A20067D361;
+					};
+					48403018294786A40067D361 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 48402FFE294786A20067D361;
+					};
+				};
+			};
+			buildConfigurationList = 48402FFA294786A20067D361 /* Build configuration list for PBXProject "NomadridesTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48402FF6294786A20067D361;
+			productRefGroup = 48403000294786A20067D361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48402FFE294786A20067D361 /* NomadridesTask */,
+				4840300E294786A40067D361 /* NomadridesTaskTests */,
+				48403018294786A40067D361 /* NomadridesTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48402FFD294786A20067D361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4840300A294786A40067D361 /* Preview Assets.xcassets in Resources */,
+				48403007294786A40067D361 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4840300D294786A40067D361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48403017294786A40067D361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48402FFB294786A20067D361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48403005294786A20067D361 /* ContentView.swift in Sources */,
+				48403003294786A20067D361 /* NomadridesTaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4840300B294786A40067D361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48403014294786A40067D361 /* NomadridesTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48403015294786A40067D361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4840301E294786A40067D361 /* NomadridesTaskUITests.swift in Sources */,
+				48403020294786A40067D361 /* NomadridesTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48403011294786A40067D361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48402FFE294786A20067D361 /* NomadridesTask */;
+			targetProxy = 48403010294786A40067D361 /* PBXContainerItemProxy */;
+		};
+		4840301B294786A40067D361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48402FFE294786A20067D361 /* NomadridesTask */;
+			targetProxy = 4840301A294786A40067D361 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48403021294786A40067D361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48403022294786A40067D361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48403024294786A40067D361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NomadridesTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NomadridesTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48403025294786A40067D361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NomadridesTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NomadridesTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48403027294786A40067D361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NomadridesTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NomadridesTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NomadridesTask";
+			};
+			name = Debug;
+		};
+		48403028294786A40067D361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NomadridesTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NomadridesTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NomadridesTask";
+			};
+			name = Release;
+		};
+		4840302A294786A40067D361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NomadridesTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NomadridesTask;
+			};
+			name = Debug;
+		};
+		4840302B294786A40067D361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NomadridesTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NomadridesTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48402FFA294786A20067D361 /* Build configuration list for PBXProject "NomadridesTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48403021294786A40067D361 /* Debug */,
+				48403022294786A40067D361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48403023294786A40067D361 /* Build configuration list for PBXNativeTarget "NomadridesTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48403024294786A40067D361 /* Debug */,
+				48403025294786A40067D361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48403026294786A40067D361 /* Build configuration list for PBXNativeTarget "NomadridesTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48403027294786A40067D361 /* Debug */,
+				48403028294786A40067D361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48403029294786A40067D361 /* Build configuration list for PBXNativeTarget "NomadridesTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4840302A294786A40067D361 /* Debug */,
+				4840302B294786A40067D361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48402FF7294786A20067D361 /* Project object */;
+}
