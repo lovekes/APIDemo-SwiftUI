@@ -14,6 +14,7 @@
 		48403014294786A40067D361 /* NomadridesTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48403013294786A40067D361 /* NomadridesTaskTests.swift */; };
 		4840301E294786A40067D361 /* NomadridesTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840301D294786A40067D361 /* NomadridesTaskUITests.swift */; };
 		48403020294786A40067D361 /* NomadridesTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840301F294786A40067D361 /* NomadridesTaskUITestsLaunchTests.swift */; };
+		4840302F294799520067D361 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840302E294799520067D361 /* CurrencyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		48403019294786A40067D361 /* NomadridesTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NomadridesTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4840301D294786A40067D361 /* NomadridesTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadridesTaskUITests.swift; sourceTree = "<group>"; };
 		4840301F294786A40067D361 /* NomadridesTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadridesTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4840302E294799520067D361 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				48403002294786A20067D361 /* NomadridesTaskApp.swift */,
 				48403004294786A20067D361 /* ContentView.swift */,
+				4840302E294799520067D361 /* CurrencyModel.swift */,
 				48403006294786A40067D361 /* Assets.xcassets */,
 				48403008294786A40067D361 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48403005294786A20067D361 /* ContentView.swift in Sources */,
+				4840302F294799520067D361 /* CurrencyModel.swift in Sources */,
 				48403003294786A20067D361 /* NomadridesTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +426,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -450,6 +455,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
